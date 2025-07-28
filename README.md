@@ -3,4 +3,6 @@ A collection of independent CUDA programs exploring GPU computing, parallel proc
 
 2D reduction.ipynb provides different implementations of reducing a 2D array to a 1D array such that each element in the 1D array is the sum of all the elements in a single row of the matrix. Explores different optimizations such as memory coalescing, tree-reductions, warp-level reductions and compares the execution time and other metrics.
 
+MatrixMultiplication.ipynb implements a large scale multi-threaded matrix multiplication using shared memory and an optimization technique called tiling.
+
 
