@@ -5,4 +5,6 @@ A collection of independent CUDA programs exploring GPU computing, parallel proc
 
 MatrixMultiplication.ipynb implements a large scale multi-threaded matrix multiplication using shared memory and an optimization technique called tiling.
 
+Memory_Efficient_Matrix_Transpose.ipynb - A CUDA kernel for memory-efficient matrix transpose using shared memory to ensure coalesced global memory reads and writes.
+
 
